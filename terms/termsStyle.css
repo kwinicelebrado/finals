@@ -1,0 +1,155 @@
+body{
+  font-family: century gothic;
+  background-color: #FAF5EF;
+  margin: 0;
+}
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* N A V I G A T I O N  B A R  S T Y L E */
+.NavBar{
+  margin-right: 40px;
+}
+
+.NavBar ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  padding-top: 3px;
+  overflow: hidden;
+  background-color: #FAF5EF;
+}
+
+.webname li a, .web{
+  color: black;
+  text-decoration: none;
+  padding: 0px 16px;
+}
+
+.webname li a:hover, .web:hover  .web{
+  color: #F6B7B7;
+}
+
+li.webname{
+  font-family: Didot LT Std;
+  font-weight: bold;
+  letter-spacing: 5px; 
+  font-size: 25px;
+  float: left;
+  margin: 17px 20px;
+  list-style-type: none;
+}
+
+img.icon-navbar{
+  width: 20px;
+  height: 20px;
+}
+
+.NavBar .heading li {
+  float: right;
+  text-align: left;
+}
+
+li a, 
+
+li a, .dropnav {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover  .dropnav {
+    color: #F6B7B7;
+}
+
+li.dropdown  {
+    display: inline-block;
+}
+
+.dropChoose {
+    display: none;
+    position: absolute;
+    background-color: #white;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropChoose a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropChoose a:hover {
+  color: black;
+  background-color: #FBE2E2;}
+
+.dropdown:hover  .dropChoose {
+    display: block;
+}
+
+
+/* F O O T E R */
+.Footer{
+  background-color: #F6B7B7;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  padding: 5px 0px;
+}
+
+.icon-footer img{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+p.names{
+  font-size: 10px;
+  padding-bottom: 0px;
+}
+
+/*TERMS OF SERVICE*/
+.termsService{
+  margin-left: 10%;
+  font-family: Century Gothic;
+}
+
+.title h2{
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-left: 35%;
+}
+
+.title p{
+  letter-spacing: 2px;
+  margin-left: 29%;
+}
+
+.termsService h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: #F6B7B7;
+  padding: 5px 20px;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.termsService li{
+  letter-spacing: 2px;
+}
+
+ul.three {
+  list-style-type: disc;
+}

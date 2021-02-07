@@ -1,0 +1,110 @@
+html{
+	height: 100%;
+}
+
+body{
+	min-height: 100%;
+	font-family: century gothic;
+}
+
+.content h1{
+	text-align: center;
+}
+
+.uploadcontainer{
+	width: 450px;
+	height: 500px;
+	margin: 20px auto;
+	background-color: #FAF5EF;
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+
+.uploadform{
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin: 20px 0 5px 40px;
+	display: block;
+}
+
+.content span{
+	margin-left: 40px;
+	margin-right: 0px;
+}
+
+.content input{
+	padding: 5px;
+	margin-left: 40px;
+}
+
+.content textarea{
+	width: 350px;
+	height: 80px;
+	padding: 5px;
+	margin-left: 40px;
+}
+
+input[type=file]{
+	display: none;	
+}
+
+.custom-file-upload{
+	margin-left: 40px;
+	width: 250px;
+	background-color: #F6B7B7;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 25px;
+	font-size: 15px;
+	font-family: century gothic;
+	cursor: pointer;
+}
+
+.btn{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.content button{
+	width: 200px;
+	background-color: #F6B7B7;
+	border: none;
+	border-radius: 20px;
+	padding: 2px 5px;
+	font-size: 18px;
+	font-family: century gothic;
+	cursor: pointer;	
+}
+
+.content button:hover, .custom-file-upload:hover{
+	background-color: #ed8790;
+	font-weight: bold;
+}
+
+
+/*DISPLAY IMAGES*/
+	   
+.display_img{
+	margin: 15px auto;
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #cbcbcb;
+	}
+	   	
+.img_div:after{
+	content: "";
+	
+	clear: both;
+}
+	   
+img{
+	float: left;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+}	
+	
